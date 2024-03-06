@@ -913,8 +913,28 @@ img {
 }
 
 .logo-box img{
-  width: 100px;
+  width: 120px;
+  /* padding: 3px; */
 }
+
+
+.sticky-button {
+  position: fixed;
+  bottom: 50%;
+  right: 2px;
+  background-color: #111111;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transform: rotate(-90deg);
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  z-index: 1;
+  margin-right: -80px;
+}
+
 
 .image-2{
   width: 350px;
@@ -1963,12 +1983,12 @@ button.ltr {
 }
 
 .header-style-two .header-lower .logo-box{
-  padding: 25px 0px;
+  padding: 3px 0px;
 }
 
 .header-style-two .main-menu .navigation > li > a{
-  padding-top: 35px;
-  padding-bottom: 35px;
+  /* padding-top: 35px;
+  padding-bottom: 35px; */
 }
 
 .main-header .search-box-outer{
