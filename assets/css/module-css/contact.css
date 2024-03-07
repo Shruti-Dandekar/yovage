@@ -23,6 +23,8 @@
 
 .contact-section .form-inner .form-group input[type='text'],
 .contact-section .form-inner .form-group input[type='email'],
+.contact-section .form-inner .form-group input[type='number'],
+.contact-section .form-inner .form-group input[type='date'],
 .contact-section .form-inner .form-group textarea{
   position: relative;
   display: block;
